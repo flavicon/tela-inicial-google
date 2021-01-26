@@ -78,14 +78,19 @@ nav {
 .search-box {
     border-radius: 30px;
     border: 0.5px solid lightgrey;
-    width: min(90vw, 580px);
+    width: min(90vw, 520px);
     padding-top: 0.5rem;
     margin: auto;
     text-align: center;
 }
 
+.search-box:hover {
+    box-shadow: 0 0.2em 0.2em lightgray;
+}
+
+
 .search-box input {
-    width: min(60vw, 440px);
+    width: min(60vw, 370px);
     height: 20px;
     margin: 0 0.7rem 1rem 0.4rem;
     min-width: 40px;
@@ -133,12 +138,24 @@ nav {
 
 .btn-down {
     display: inline-block;
+    width: 8rem;
+    height: 1.9rem;
+    line-height: 1.8rem;
+    text-align: center;
+    background: #F8F9FA;
+    font-family: "Arial", sans-serif;
+    color: #000;
+}
+
+.btn-down:hover {
+    box-shadow: 0 0 0.2em gray;
 }
 
 .btn-down a {
     text-decoration: none;
-    background: lightgray;
 }
+
+
 
 .search-google {
     margin-right: 1.5rem;
