@@ -61,14 +61,13 @@ nav {
 /*-------------barra de pesquisa---------*/
 .search {
     height: 400px;
-    border: 2px solid black;
 }
 
 /*---------Logo------------*/
 
 .logo {
     margin-top: 6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,14 +76,70 @@ nav {
 /*-------------Pesquisa--------*/
 
 .search-box {
-    border: 1px solid black;
-    width: 560px;
-    display: block;
+    border-radius: 30px;
+    border: 0.5px solid lightgrey;
+    width: min(90vw, 580px);
+    padding-top: 0.5rem;
     margin: auto;
+    text-align: center;
 }
 
+.search-box input {
+    width: min(60vw, 440px);
+    height: 20px;
+    margin: 0 0.7rem 1rem 0.4rem;
+    min-width: 40px;
+    vertical-align: middle;
+    border: hidden;
+    font-size: 15px;
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.search-itens {
+    display: inline-block;
+}
+
+.lupa {
+    
+    opacity: 0.5;
+} 
+
+.keyboard {
+    margin-left: 0.5rem;
+    margin-right: 0.4rem;
+}
+
+.mic-google {
+    display: inline;
+    vertical-align: sub;
+}
 
 .logo img {
     width: 270px;
 }
 
+/*-------------Botões inferiores----------*/
+
+.search-down {
+    margin-top: 1.5rem;
+    
+    text-align: center;
+}
+
+.btn-down {
+    display: inline-block;
+}
+
+.btn-down a {
+    text-decoration: none;
+    background: lightgray;
+}
+
+.search-google {
+    margin-right: 1.5rem;
+}
