@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.container {
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid black;
+}
+
 /*------------Cabeçalho-------------------*/
 
 nav {
@@ -78,7 +84,7 @@ nav {
 .search-box {
     border-radius: 30px;
     border: 0.5px solid lightgrey;
-    width: min(90vw, 520px);
+    width: min(90vw, 580px);
     padding-top: 0.5rem;
     margin: auto;
     text-align: center;
@@ -90,8 +96,8 @@ nav {
 
 
 .search-box input {
-    width: min(60vw, 370px);
-    height: 20px;
+    width: min(60vw, 440px);
+    height: 15px;
     margin: 0 0.7rem 1rem 0.4rem;
     min-width: 40px;
     vertical-align: middle;
@@ -139,12 +145,11 @@ nav {
 .btn-down {
     display: inline-block;
     width: 8rem;
-    height: 1.9rem;
-    line-height: 1.8rem;
+    height: 2rem;
+    line-height: 2rem;
     text-align: center;
     background: #F8F9FA;
     font-family: "Arial", sans-serif;
-    color: #000;
 }
 
 .btn-down:hover {
@@ -153,10 +158,30 @@ nav {
 
 .btn-down a {
     text-decoration: none;
+    font-weight: 200;
+    font-size: 14px;
+    color: #000;
 }
-
-
 
 .search-google {
     margin-right: 1.5rem;
 }
+
+/*------------- Rodapé ------------*/
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 1.6rem;
+    height: 4rem;
+}
+
+.country {
+    height: 2rem;
+    border: 0.5px solid lightgray;
+}
+
+.information-footer {
+    display: flex;
+}
+
+.information
