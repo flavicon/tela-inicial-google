@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    width: 100vw;
-    height: 100vh;
-    border: 1px solid black;
-}
 
 /*------------Cabeçalho-------------------*/
 
@@ -171,19 +166,30 @@ nav {
 
 footer {
     background-color: #F2F2F2;
-    margin-top: 1.6rem;
-    height: 4rem;
+    margin-top: -1.5rem;
+    height: 5rem;
+    color: #666;
 }
 
 .country {
     height: 2rem;
-    border: 0.5px solid lightgray;
+    margin-left: 1rem;
+}
+
+.country p {
+    
 }
 
 .information-footer {
     display: flex;
+    justify-content: space-between;
 }
 
 .information {
-    
+    display: inline-block;
+}
+
+.information a {
+    text-decoration: none;
+    color: #666;
 }
