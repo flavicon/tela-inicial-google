@@ -61,7 +61,7 @@ nav {
 
 /*-------------barra de pesquisa---------*/
 .search {
-    height: 400px;
+    height: 408px;
 }
 
 /*---------Logo------------*/
@@ -86,7 +86,7 @@ nav {
 }
 
 .search-box:hover {
-    box-shadow: 0 0.2em 0.2em lightgray;
+    box-shadow: 0 0 0.3em lightgray;
 }
 
 
@@ -166,30 +166,68 @@ nav {
 
 footer {
     background-color: #F2F2F2;
-    margin-top: -1.5rem;
-    height: 5rem;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
     color: #666;
 }
 
 .country {
-    height: 2rem;
-    margin-left: 1rem;
+    height: 2.5rem;
+    border-bottom: 1px solid #ddd;
 }
 
 .country p {
-    
+    line-height: 3.5rem;
+    margin-left: 1.2rem;
+    display: inline-block;
 }
 
 .information-footer {
     display: flex;
+    height: 3rem;
     justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    align-items: center;
 }
 
-.information {
-    display: inline-block;
+.flex {
+    display: flex;
+    height: 1.2rem;
+    align-items: center;
+}
+
+.f-left {
+
+}
+
+.f-right {
+    
 }
 
 .information a {
     text-decoration: none;
     color: #666;
+}
+
+.information-left {
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-right {
+    width: 450px;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.information-left li {
+    margin-right: 2rem;
+}
+
+.information-right li {
+    margin-left: 2.5rem;
 }
